@@ -109,8 +109,8 @@ var Diaspora = {
     preview: function() {
         // preview toggle
         $("#preview").one('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', function() {
-            var left = $('#preview').css('left');
-            if (left == '0px') {
+            var previewVisible = $('#preview').hasClass('show');
+            if (!!previewVisible) {
                 $('#container').hide();
             }else{
                 $('#container').show();
@@ -385,7 +385,7 @@ $(function() {
             // history state
             case (tag.indexOf('posttitle') != -1):
                 Diaspora.HS($(e.target), 'push')
-                // return false;
+                return false;
                 break;
             // prev, next post
             case (rel == 'prev' || rel == 'next'):
