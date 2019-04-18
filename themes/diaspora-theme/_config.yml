@@ -3,6 +3,7 @@ menu:
   Whoami: /whoami
   Github: https://github.com/alex123bob
   Instagram: https://instagram.com/alex123bob
+  Welcome: /welcome
 
 # 是否显示目录
 TOC: false

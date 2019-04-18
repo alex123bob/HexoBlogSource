@@ -1,0 +1,32 @@
+@media screen and (orientation: landscape) {
+    .wedding {
+        background: url('/images/wedding-bg.jpg') no-repeat center center fixed;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .wedding {
+        background: url('/images/wedding-bg-portrait.jpg') no-repeat center center fixed;
+    }
+}
+
+.wedding {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%; 
+    -ms-background-size: 100% 100%; 
+    -o-background-size: 100% 100%; 
+    -moz-background-size: 100% 100%; 
+    -webkit-background-size: 100% 100%;
+}
+
+.wedding p {
+    color: white;
+    font-weight: 900;
+    text-indent: 2em;
+}
+
+.wedding h3 {
+    color: #fd0d0d;
+}
