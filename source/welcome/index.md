@@ -11,5 +11,3 @@ When: 25<sup>th</sup> May 2019
 Where: Anji County, Zhejiang Province
 
 What you are expected to bring: Your wishes, your lovely smile -->
-
-test
